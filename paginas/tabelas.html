@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tabelas</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="styles/table.css">
+</head>
+<body>
+    
+        <center><h1>Tabelas</h1></center>
+    
+    <center>
+    <table>
+        <caption>
+            Tabela de Contas e Saldos
+          </caption>
+        <thead>
+            <tr style="background-color: rgb(104, 253, 233)">
+                    <th scope="col">Tipo de despesa</th>
+                    <th scope="col">Descrição</th>
+                    <th scope="col">Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="5" scope="rowgroup" style="background-color: #D6EEEE">Doméstica</th>
+                <td>Compras do mês</td>
+                <td>$ 280,00</td>
+            </tr>
+            <tr>
+                <td>Aluguel</td>
+                <td>$ 450,00</td>
+            </tr>
+            <tr>
+                <td>Luz</td>
+                <td>$ 120,00</td>
+            </tr>
+            <tr>
+                <td>Água</td>
+                <td>$ 110,00</td>
+            </tr>
+            <tr>
+                <td>Telefone</td>
+                <td>$ 90,00</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="rowgroup" style="background-color: #D6EEEE">Externa</th>
+                <td>Gasolina</td>
+                <td>$ 450,00</td>
+            </tr>
+            <tr>
+                <td>Almoço</td>
+                <td>$ 200,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="2">Subtotal</th>
+            <td>$ 1.701,00</td>
+        </tfoot>
+    </table>
+    </center>
+    <br>
+    <hr>
+    <br>
+<center>
+    <table>
+        <thead style="background-color: rgb(200, 250, 250);">
+            <tr>
+                <th rowspan="3" scope="rowgroup">País</th>
+                <th colspan="2" scope="colgroup">Saneamento Básico (%)</th>
+                <th colspan="3" scope="colgroup">Taxa de Mortalidade <br> Infantil (por mil)</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Esgotamento Sanitário <br> Adequado</th>
+                <th rowspan="2">Abastecimento <br> de Água</th>
+                <th colspan="3" scope="colgroup">Anos de permanência das <br> mães na escola</th>
+            </tr>
+            <tr>
+                <th>Até 3</th>
+                <th>De 4 a 7</th>
+                <th>8 ou mais</th>
+            </tr>
+        </thead>
+        <tbody style="text-align: center;">
+            <tr>
+                <th>I</th>
+                <td>33</td>
+                <td>47</td>
+                <td>45,1</td>
+                <td>29,6</td>
+                <td>21,4</td>
+            </tr>
+            <tr>
+                <th>II</th>
+                <td>36</td>
+                <td>65</td>
+                <td>70,3</td>
+                <td>41,2</td>
+                <td>28,0</td>
+            </tr>
+            <tr>
+                <th>III</th>
+                <td>81</td>
+                <td>88</td>
+                <td>34,8</td>
+                <td>27,4</td>
+                <td>17,7</td>
+            </tr>
+            <tr>
+                <th>IV</th>
+                <td>62</td>
+                <td>79</td>
+                <td>33,9</td>
+                <td>22,5</td>
+                <td>16,4</td>
+            </tr>
+            <tr>
+                <th>V</th>
+                <td>40</td>
+                <td>73</td>
+                <td>37,9</td>
+                <td>25,1</td>
+                <td>19,3</td>
+            </tr>
+        </tbody>
+    </table>
+</center>
+</body>
+</html>

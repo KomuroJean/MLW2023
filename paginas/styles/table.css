@@ -1,0 +1,22 @@
+table, th, td {
+    border: 1px solid;
+    padding: 5px;
+}
+table {
+    border: 2px solid;
+}
+    
+  table {
+    border-collapse: collapse;
+  }
+tfoot {
+    text-align: right;
+}
+ 
+tfoot{
+    background-color: rgb(104, 253, 233);
+}
+
+h1 {
+text-decoration: underline;
+}
