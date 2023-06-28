@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles/tsi.css" rel="stylesheet" />
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="hm">
+            <a href="https://bri.ifsp.edu.br/"><img src="TSI IMG/logo_ifsp.bri_white.fw.png" alt=""></a>
+        </div>
+        <div class="idk">
+            <h2>Tecnologia em Sistemas para Internet</h2>
+        </div>
+    </div>
+</div>
+<div class="corpo">
+    <div class="navigation">
+        <div class="tab">
+            <button class="tablinks" onclick="openTab (event, 'sobre')" id="defaultOpen">Sobre</button>
+            <button class="tablinks" onclick="openTab (event, 'cDocente')">Corpo Docente</button>
+            <button class="tablinks" onclick="openTab (event, 'horario')">Horário das Turmas</button>
+            <button class="tablinks" onclick="openTab (event, 'moreInfo')">Mais Informações</button>
+            <button class="tablinks" onclick="openTab (event, 'NDE')">NDE</button>
+            <button class="tablinks" onclick="openTab (event, 'Colegiado')">Colegiado</button>
+            <button class="tablinks" onclick="openTab (event, 'CPA')">CPA</button>
+            <button class="tablinks" onclick="openTab (event, 'Gestão')">Gestão do Curso</button>
+            <button class="tablinks" onclick="openTab (event, 'Normas')">Regulamentos e Normas</button>
+        </div>
+    </div>
+    <div class="content">
+        <div id=sobre class="tabcontent">
+        <h2>Sobre Tecnologia em Sistemas para Internet</h2>
+        <div class="texto">
+            <p>
+            O curso superior de Tecnologia em Sistemas para Internet é um curso tecnológico de graduação com ênfase em desenvolvimento de sistemas de software para a Internet. Disciplinas específicas da área, como tecnologias Web, linguagens de programação, engenharia de software, redes de computadores, bancos de dados, arquitetura computadores e sistemas operacionais familiarizam o aluno com as questões ligadas ao desenvolvimento de sistemas de software para a Internet.
+            <br>
+            <br><strong>Objetivos específicos do curso:</strong>
+            <br>Desenvolver o raciocínio lógico-matemático;
+            <br>Obter formação em desenvolvimento de software para ambiente internet, intranet e móvel;
+            <br>Trabalhar em programação de computadores e em engenharia de software para o ambiente Internet, intranet e móvel;
+            <br>Projetar e implementar sistemas de computação para internet, intranet e dispositivos móveis.
+        </p>
+        <p>
+            <br><strong>Pré- requisito:</strong> Ensino Médio Completo ou equivalente
+            <br><strong>Carga Horária:</strong> 2.100 horas
+            <br><strong>Duração:</strong> 3 anos (6 Semestres)
+            <br><strong>N⁰ de vagas:</strong> 40 Anuais
+            <br><strong>Turno de funcionamento:</strong> o curso acontece de segunda a sexta-feira no período noturno e aos sábados, no período diurno.
+            <br><strong>Acesso ao curso:</strong> Por meio do Sistema de Seleção Unificada (Sisu), gerenciado pelo Ministério da Educação (MEC), no qual instituições públicas de ensino superior oferecem vagas para candidatos participantes do Exame Nacional do Ensino Médio (Enem).
+            <br><strong>Coordenador do Curso:</strong> Prof. Dr. Valtemir de Alencar e Silva
+        </p>
+        </div>
+    </div>
+    <div id=cDocente class="tabcontent">
+        <h3>TESTE22</h3>
+        <p>Teste22</p>
+    </div>
+    <div id=horario class="tabcontent">
+        <h3>TESTE33</h3>
+        <p>Teste33</p>
+    </div>
+    <div id=moreInfo class="tabcontent">
+        <h3>TESTE44</h3>
+        <p>Teste</p>
+    </div>
+    <div id=NDE class="tabcontent">
+        <h3>TESTE55</h3>
+        <p>Teste55</p>
+    </div>
+    <div id=Colegiado class="tabcontent">
+        <h3>TESTE66</h3>
+        <p>Teste66</p>
+    </div>
+    <div id=CPA class="tabcontent">
+        <h3>TESTE77</h3>
+        <p>Teste77</p>
+    </div>
+    <div id=Gestão class="tabcontent">
+        <h3>TESTE88</h3>
+        <p>Teste88</p>
+    </div>
+    <div id=Normas class="tabcontent">
+        <h3>TESTE99</h3>
+        <p>Teste99</p>
+    </div>
+    </div>
+</div>
+
+<script>
+    function openTab(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    document.getElementById("defaultOpen").click();
+    </script>
+</body>
+</html>
